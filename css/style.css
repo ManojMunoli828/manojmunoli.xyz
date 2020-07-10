@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  height: 100%;
+  background: url("../images/photo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.container .right-container {
+  background: white;
+  background: -webkit-gradient(linear, right top, left top, color-stop(90%, rgba(255, 255, 255, 0.7)), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.7) 90%, rgba(0, 212, 255, 0) 100%);
+  text-align: center;
+}
+
+.container .right-container .name {
+  margin-top: 4em;
+  font-size: 300%;
+  font-weight: bolder;
+  color: #2f2f2f;
+}
+
+.container .right-container .title {
+  color: #2f2f2f;
+}
+
+.container .right-container .description {
+  margin: 0em 0em 4em 0em;
+  font-size: 120%;
+  font-weight: 900;
+  color: #2f2f2f;
+  line-height: 1.5;
+}
+
+.container .right-container .social-profiles a {
+  color: #2f2f2f;
+  margin: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
